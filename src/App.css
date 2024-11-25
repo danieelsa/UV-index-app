@@ -1,0 +1,22 @@
+:root {
+    --clr-text-light-primary: hsla(0, 0%, 100%, .87);
+    --clr-background: hsl(276, 15%, 6%);
+  }
+  
+  body
+  {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: var(--clr-text-light-primary);
+    background-color: var(--clr-background)
+  }
+  
+  .layout
+  {
+    display: grid;
+    min-height: 100vh;
+    min-height: 100dvh;
+    place-content: center;
+  }
