@@ -1,0 +1,29 @@
+.uv-card
+{
+    display: grid;
+    container-type: inline-size;
+    place-content: center;
+
+    width: clamp(10rem, 33vw, 35rem);
+    border-radius: 1rem;
+    aspect-ratio: 1;
+    border: 1px solid var(--clr-border);
+    overflow: clip;
+
+    
+    @media (max-width: 870px) {
+        width: clamp(10rem, 50vw, 35rem);
+    }
+
+    @media (max-width: 370px) {
+        width: clamp(10rem, 80vw, 35rem);
+    }
+
+    p
+    {
+        font-weight: 900;
+        margin: 0;
+        font-size: clamp(4rem, 12vw, 15rem);
+        font-size: 50cqi;
+    }
+}
